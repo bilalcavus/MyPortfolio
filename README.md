@@ -1,46 +1,106 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Modern ve minimalist tasarıma sahip kişisel portfolio web sitesi. React ve Tailwind CSS kullanılarak geliştirilmiştir.
 
-## Available Scripts
+## Özellikler
 
-In the project directory, you can run:
+- 🎨 Modern ve minimalist tasarım
+- 📱 Tamamen responsive (mobil uyumlu)
+- ⚡ Hızlı ve performanslı
+- 🔧 TypeScript desteği
+- 🎯 SEO dostu yapı
+- 📧 İletişim formu
+- 🚀 Kolay özelleştirme
 
-### `npm start`
+## Teknolojiler
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend:** React 18, TypeScript
+- **Styling:** Tailwind CSS
+- **Icons:** Heroicons (SVG)
+- **Build Tool:** Create React App
+- **Deployment:** Netlify/Vercel ready
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Kurulum
 
-### `npm test`
+1. Projeyi klonlayın:
+```bash
+git clone [repository-url]
+cd portfolio
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Bağımlılıkları yükleyin:
+```bash
+npm install
+```
 
-### `npm run build`
+3. Geliştirme sunucusunu başlatın:
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Tarayıcınızda `http://localhost:3000` adresini açın.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Özelleştirme
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Kişisel Bilgileri Güncelleme
 
-### `npm run eject`
+`src/data/mockData.ts` dosyasını düzenleyerek kendi bilgilerinizi ekleyin:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Projeler
+- Yetenekler
+- Deneyimler
+- İletişim bilgileri
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Renk Temasını Değiştirme
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`tailwind.config.js` dosyasındaki renk paletini değiştirerek kendi temanızı oluşturabilirsiniz.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Resimler
 
-## Learn More
+`src/assets/images/` klasörüne kendi resimlerinizi ekleyin ve `mockData.ts` dosyasındaki URL'leri güncelleyin.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Klasör Yapısı
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+src/
+├── components/
+│   ├── layout/          # Layout bileşenleri
+│   ├── sections/        # Ana sayfa bölümleri
+│   └── ui/             # Yeniden kullanılabilir UI bileşenleri
+├── data/               # Mock veriler
+├── pages/              # Sayfa bileşenleri
+├── types/              # TypeScript tip tanımları
+├── utils/              # Yardımcı fonksiyonlar
+└── assets/             # Statik dosyalar
+```
+
+## Deployment
+
+### Netlify
+
+1. Projeyi build edin:
+```bash
+npm run build
+```
+
+2. `build` klasörünü Netlify'a yükleyin.
+
+### Vercel
+
+1. Vercel CLI'yı kurun:
+```bash
+npm i -g vercel
+```
+
+2. Deploy edin:
+```bash
+vercel
+```
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
+
+## Destek
+
+Herhangi bir sorunuz veya öneriniz varsa, lütfen issue açın veya benimle iletişime geçin.
