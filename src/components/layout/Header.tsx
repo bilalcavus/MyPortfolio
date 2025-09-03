@@ -22,16 +22,16 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? 'bg-white/95 backdrop-blur-sm border-b border-gray-100'
+          ? 'bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-lg'
           : 'bg-transparent'
       }`}
     >
-      <nav className="container mx-auto px-6 lg:px-8">
-        <div className="flex items-center justify-between h-14">
+      <nav className="container mx-auto px-4 lg:px-6">
+        <div className="flex items-center justify-between h-12">
           <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-gray-200">
+            <div className="w-6 h-6 rounded-full overflow-hidden border border-gray-200">
               <img 
                 src={avatarImage} 
                 alt="Profile" 
@@ -40,7 +40,7 @@ const Header: React.FC = () => {
             </div>
             <button
               onClick={() => scrollToSection('hero')}
-              className={`text-lg font-medium transition-colors ${
+              className={`text-sm font-medium transition-colors ${
                 isScrolled ? 'text-gray-900' : 'text-white'
               }`}
             >
@@ -48,10 +48,10 @@ const Header: React.FC = () => {
             </button>
           </div>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             <button
               onClick={() => scrollToSection('projects')}
-              className={`text-sm font-normal transition-colors hover:opacity-70 ${
+              className={`text-xs font-normal transition-colors hover:opacity-70 ${
                 isScrolled ? 'text-gray-600' : 'text-white/80'
               }`}
             >
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className={`text-sm font-normal transition-colors hover:opacity-70 ${
+              className={`text-xs font-normal transition-colors hover:opacity-70 ${
                 isScrolled ? 'text-gray-600' : 'text-white/80'
               }`}
             >

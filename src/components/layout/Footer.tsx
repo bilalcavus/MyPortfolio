@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">İletişim</h3>
+            <h3 className="text-lg font-semibold">Contact</h3>
             <div className="space-y-2">
               <p className="text-gray-300">{contactInfo.email}</p>
               {contactInfo.phone && (
@@ -40,31 +40,31 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Hızlı Bağlantılar</h3>
+            <h3 className="text-lg font-semibold">Quick Links</h3>
             <div className="space-y-2">
               <button
                 onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
                 className="block text-gray-300 hover:text-white transition-colors"
               >
-                Hakkımda
+                About
               </button>
               <button
                 onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
                 className="block text-gray-300 hover:text-white transition-colors"
               >
-                Projeler
+                Projects
               </button>
               <button
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 className="block text-gray-300 hover:text-white transition-colors"
               >
-                İletişim
+                Contact
               </button>
             </div>
           </div>
 
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Sosyal Medya</h3>
+            <h3 className="text-lg font-semibold">Social Media</h3>
             <div className="flex space-x-4">
               {socialLinks.map((link) => (
                 <a
@@ -84,7 +84,7 @@ const Footer: React.FC = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400">
-            © {currentYear} Portfolio. Tüm hakları saklıdır.
+            © {currentYear} Portfolio. All rights reserved.
           </p>
         </div>
       </div>
