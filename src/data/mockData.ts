@@ -99,3 +99,4 @@ export const contactInfo: ContactInfo = {
   github: 'https://github.com/bilalcavus',
   website: 'https://yourname.com',
 };
+

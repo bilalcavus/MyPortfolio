@@ -35,3 +35,4 @@ export interface ContactInfo {
   github?: string;
   website?: string;
 }
+
