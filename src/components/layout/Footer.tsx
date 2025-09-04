@@ -42,12 +42,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <div className="space-y-2">
-              <button
-                onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
-                className="block text-gray-300 hover:text-white transition-colors"
-              >
-                About
-              </button>
+            
               <button
                 onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
                 className="block text-gray-300 hover:text-white transition-colors"

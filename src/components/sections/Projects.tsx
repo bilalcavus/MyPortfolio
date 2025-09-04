@@ -8,20 +8,22 @@ const Projects: React.FC = () => {
     {
         id: 'mindflow',
         title: 'MindFlow',
-        description: 'AI-powered chat application with intelligent conversation flow and context awareness.',
-        technologies: ['Flutter', 'OpenAI API', 'WebSocket', 'State Management'],
-        mainImage: require('../../assets/project/mindflow/mindflow-home.jpg'),
+        description: 'AI-powered analyze and chat application with intelligent conversation flow and context awareness. Published on Google Play Store.',
+        technologies: ['Flutter', 'Openrouter, Groq, Together LLM APIs', 'Easy Localization', 'Firebase', 'Sqflite', 'Provider', 'Git'],
+        mainImage: require('../../assets/project/mindflow/12.png'),
         images: [
-          require('../../assets/project/mindflow/mindflow-home.jpg'),
-          require('../../assets/project/mindflow/mindflow-home-light.jpg'),
-          require('../../assets/project/mindflow/mindflow-chat.jpg')
+          require('../../assets/project/mindflow/11.png'),
+          require('../../assets/project/mindflow/12.png'),
+          require('../../assets/project/mindflow/13.png'),
+          require('../../assets/project/mindflow/14.png'),
+          require('../../assets/project/mindflow/15.png'),
         ]
       },
     {
         id: 'farmodo',
         title: 'Farmodo',
-        description: 'Agricultural marketplace connecting farmers with buyers, featuring reward system and store management.',
-        technologies: ['Flutter', 'Firebase', 'Google Maps', 'Payment Gateway'],
+        description: 'A Pomodoro-based app where you earn xp for completing tasks. Focus and earn xp. This way, you can improve your farming and buy new animals! Closed test on Google Play Store.',
+        technologies: ['Flutter', 'Firebase', 'Git', 'Flame', 'GetX'],
         mainImage: require('../../assets/project/farmodo/farmodo-home.png'),
         images: [
           require('../../assets/project/farmodo/farmodo-home.png'),
@@ -32,8 +34,8 @@ const Projects: React.FC = () => {
     {
       id: 'vpn',
       title: 'VPN App',
-      description: 'Secure VPN application with multiple server locations and connection management.',
-      technologies: ['Flutter', 'VPN Protocol', 'Security', 'Network Management'],
+      description: 'Secure VPN application with multiple server locations and connection management. An interview case study.',
+      technologies: ['Flutter', 'Git', 'Shared Preferences', 'GetX'],
       mainImage: require('../../assets/project/vpn/vpn-home.png'),
       images: [
         require('../../assets/project/vpn/vpn-home.png'),
@@ -45,7 +47,7 @@ const Projects: React.FC = () => {
         id: 'takasla',
         title: 'Takasla',
         description: 'Barter and exchange platform with swiper interface for easy item discovery.',
-        technologies: ['Flutter', 'Firebase', 'Image Processing', 'Geolocation'],
+        technologies: ['Flutter', 'Node.js', 'PostgreSQL', 'Socket.io', 'Git', 'GetX'],
         mainImage: require('../../assets/project/takasla/takasla-home.png'),
         images: [
           require('../../assets/project/takasla/takasla-home.png'),
@@ -55,8 +57,8 @@ const Projects: React.FC = () => {
     {
       id: 'bidynamic',
       title: 'BiDynamic',
-      description: 'Dynamic bidding platform with real-time analytics and user management system.',
-      technologies: ['Flutter', 'Node.js', 'MongoDB', 'Socket.io'],
+      description: 'This application, which belongs to Functionair firm, allows webview integration and user -friendlyinterface to manage business processes more integrated and effectively. Development is ongoing.',
+      technologies: ['Flutter', 'WebView', 'BiDynamic API', 'Git'],
       mainImage: require('../../assets/project/bidynamic/bidyno-login.jpg'),
       images: [
         require('../../assets/project/bidynamic/bidyno-login.jpg')
@@ -65,7 +67,7 @@ const Projects: React.FC = () => {
     
     {
       id: 'film',
-      title: 'Film App',
+      title: 'Film House App',
       description: 'Movie discovery and recommendation app with user reviews and watchlist features.',
       technologies: ['Flutter', 'TMDB API', 'SQLite', 'Provider'],
       mainImage: require('../../assets/project/film/film-home.jpg'),
@@ -81,7 +83,7 @@ const Projects: React.FC = () => {
 
 
   return (
-    <section id="projects" className="py-8 sm:py-12 bg-white">
+    <section id="projects" className="pt-2 sm:pt-4 pb-8 sm:pb-12 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="relative">

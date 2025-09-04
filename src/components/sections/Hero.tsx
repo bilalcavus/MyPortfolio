@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen bg-white flex items-center justify-center py-8 sm:py-12">
+    <section id="hero" className="min-h-screen bg-white flex items-center justify-center pt-8 sm:pt-12 pb-2 sm:pb-4">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-xs sm:max-w-md lg:max-w-3xl mx-auto">
           <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg border border-gray-100 overflow-hidden">
@@ -44,10 +44,10 @@ const Hero: React.FC = () => {
                 Bilal Çavuş
               </h1>
               <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4">
-                UX/UI Designer & Developer
+                Mobile Developer
               </p>
               <p className="text-gray-700 leading-relaxed max-w-sm sm:max-w-xl mx-auto mb-4 sm:mb-6 text-xs sm:text-sm">
-                I'm a software engineer with a passion for building fast, scalable, and user-friendly solutions with Flutter, Kotlin, and Node.js.
+                I'm a mobile developer with a passion for building fast, scalable, and user-friendly solutions with Flutter, Kotlin and Node.js.
               </p>
               
               <div className="flex flex-col sm:flex-row items-center justify-between pt-4 sm:pt-6 border-t border-gray-100 space-y-3 sm:space-y-0">
@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
                   onClick={() => scrollToSection('contact')}
                   className="bg-black text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs font-medium hover:bg-gray-800 transition-colors"
                 >
-                  Book a Call
+                  Contact Me
                 </button>
               </div>
             </div>
