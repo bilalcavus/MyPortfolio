@@ -51,8 +51,8 @@ const Projects: React.FC = () => {
     },
     {
       id: 'linguaswipe',
-      title: 'Linguaswipe',
-      description: 'Linguaswipe is a language learning app that allows you to learn languages by swiping through words.',
+      title: 'LinguaSwipe',
+      description: 'Linguaswipe is a language learning app that allows you to learn languages by swiping through words. Closed test on Google Play Store.',
       technologies: ['Flutter', 'Git', 'Shared Preferences', 'SQFlite', 'Easy Localization', 'Provider'],
       mainImage: require('../../assets/project/linguaswipe/linguaswipe-card-front.jpg'),
       images: [

@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
                 Contact Me
               </h3>
               <p className="text-xs text-gray-600 leading-relaxed">
-                New projects, collaboration opportunities, or just saying hello, feel free to contact me. I'll get back to you as soon as possible.
+                New projects, collaboration opportunities or just saying hello, feel free to contact me. I'll get back to you as soon as possible.
               </p>
             </div>
 

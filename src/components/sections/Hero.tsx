@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen bg-white flex items-center justify-center pt-8 sm:pt-12 pb-2 sm:pb-4">
+    <section id="hero" className="min-h-screen bg-white flex items-center justify-center pt-8 sm:pt-12 pb-2 sm:pb-4 relative">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-xs sm:max-w-md lg:max-w-3xl mx-auto">
           <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg border border-gray-100 overflow-hidden">
@@ -80,6 +80,16 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
+      {/* Scroll Down Button to Projects */}
+      <button
+        aria-label="Scroll to projects"
+        onClick={() => scrollToSection('projects')}
+        className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black text-white rounded-full p-2 sm:p-3 shadow-md hover:bg-gray-800 transition-colors"
+      >
+        <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
     </section>
   );
 };
