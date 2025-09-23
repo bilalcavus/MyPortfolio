@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.259bee2c.css",
-    "main.js": "/MyPortfolio/static/js/main.bc105a9f.js",
+    "main.js": "/MyPortfolio/static/js/main.8eeca05d.js",
     "static/js/453.ad7768ec.chunk.js": "/MyPortfolio/static/js/453.ad7768ec.chunk.js",
     "static/media/12.png": "/MyPortfolio/static/media/12.e6dfb3af93fe7a708528.png",
     "static/media/11.png": "/MyPortfolio/static/media/11.97bc2413e2c0e8ed997a.png",
@@ -10,22 +10,36 @@
     "static/media/avatar_profile.png": "/MyPortfolio/static/media/avatar_profile.e4ada82576237be91dde.png",
     "static/media/14.png": "/MyPortfolio/static/media/14.e0432c5a42f0d02ca5c6.png",
     "static/media/takasla-swiper.png": "/MyPortfolio/static/media/takasla-swiper.973163d7fb8000831578.png",
-    "static/media/farmodo-store.png": "/MyPortfolio/static/media/farmodo-store.7bee92061d85a15f3f3a.png",
+    "static/media/farmodo-store.png": "/MyPortfolio/static/media/farmodo-store.16b27af904b829b65d6d.png",
     "static/media/15.png": "/MyPortfolio/static/media/15.75f9dc0e152e15bd11f9.png",
+    "static/media/farmodo-profile.png": "/MyPortfolio/static/media/farmodo-profile.b0737f0cbd9bb8babfcc.png",
     "static/media/vpn-home.png": "/MyPortfolio/static/media/vpn-home.968f0d438a3035792733.png",
     "static/media/vpn-home-dark.png": "/MyPortfolio/static/media/vpn-home-dark.48963686e20d212cc9f4.png",
-    "static/media/farmodo-reward.png": "/MyPortfolio/static/media/farmodo-reward.13a7dd06d12889b8264e.png",
+    "static/media/farmodo-home.png": "/MyPortfolio/static/media/farmodo-home.f4947f8e6930a072502d.png",
     "static/media/vpn-connect.png": "/MyPortfolio/static/media/vpn-connect.3704cc47e5553475730f.png",
-    "static/media/farmodo-home.png": "/MyPortfolio/static/media/farmodo-home.005ed3edc3b4580cb9f9.png",
+    "static/media/vpn_disconnect_light.png": "/MyPortfolio/static/media/vpn_disconnect_light.3704cc47e5553475730f.png",
+    "static/media/takasla-message.png": "/MyPortfolio/static/media/takasla-message.17659d4ed0f62c1407de.png",
     "static/media/film-home.jpg": "/MyPortfolio/static/media/film-home.0db4290154d259b3257d.jpg",
+    "static/media/takasla-brands.png": "/MyPortfolio/static/media/takasla-brands.602f3f1d8c6c8a4ce9f2.png",
+    "static/media/farmodo-task.png": "/MyPortfolio/static/media/farmodo-task.58640cadfbd1e3e58182.png",
+    "static/media/farmodo-fullscreen.png": "/MyPortfolio/static/media/farmodo-fullscreen.38a752a89eb0e321b38c.png",
     "static/media/bidyno-login.jpg": "/MyPortfolio/static/media/bidyno-login.c122829104ec4eb04b28.jpg",
+    "static/media/linguaswipe-words.jpg": "/MyPortfolio/static/media/linguaswipe-words.f41b4d35a64fee2b1cca.jpg",
+    "static/media/farmodo-reward.jpg": "/MyPortfolio/static/media/farmodo-reward.10376aaa4acdd571165b.jpg",
+    "static/media/farmodo-reward-2.jpg": "/MyPortfolio/static/media/farmodo-reward-2.9d2e70d4f491632a413f.jpg",
+    "static/media/farmodo-reward-1.jpg": "/MyPortfolio/static/media/farmodo-reward-1.027c990443e07b5ecf38.jpg",
+    "static/media/linguaswipe-card-front.jpg": "/MyPortfolio/static/media/linguaswipe-card-front.b2f27d51fd10e2b04330.jpg",
+    "static/media/linguaswipe-card-back.jpg": "/MyPortfolio/static/media/linguaswipe-card-back.a8608137aae49dcc255f.jpg",
+    "static/media/linguaswipe-progress.jpg": "/MyPortfolio/static/media/linguaswipe-progress.a9b6a409075d741227db.jpg",
+    "static/media/linguaswipe-selector.jpg": "/MyPortfolio/static/media/linguaswipe-selector.c9a853c7813e19c337bd.jpg",
+    "static/media/linguaswipe-splash.jpg": "/MyPortfolio/static/media/linguaswipe-splash.bc1ac3d47fba225fcdd5.jpg",
     "index.html": "/MyPortfolio/index.html",
     "main.259bee2c.css.map": "/MyPortfolio/static/css/main.259bee2c.css.map",
-    "main.bc105a9f.js.map": "/MyPortfolio/static/js/main.bc105a9f.js.map",
+    "main.8eeca05d.js.map": "/MyPortfolio/static/js/main.8eeca05d.js.map",
     "453.ad7768ec.chunk.js.map": "/MyPortfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.259bee2c.css",
-    "static/js/main.bc105a9f.js"
+    "static/js/main.8eeca05d.js"
   ]
 }
