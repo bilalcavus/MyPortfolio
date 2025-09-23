@@ -54,7 +54,7 @@ const Projects: React.FC = () => {
       title: 'Linguaswipe',
       description: 'Linguaswipe is a language learning app that allows you to learn languages by swiping through words.',
       technologies: ['Flutter', 'Git', 'Shared Preferences', 'SQFlite', 'Easy Localization', 'Provider'],
-      mainImage: require('../../assets/project/linguaswipe/linguaswipe-home.png'),
+      mainImage: require('../../assets/project/linguaswipe/linguaswipe-card-front.jpg'),
       images: [
         require('../../assets/project/linguaswipe/linguaswipe-card-front.jpg'),
         require('../../assets/project/linguaswipe/linguaswipe-card-back.jpg'),
