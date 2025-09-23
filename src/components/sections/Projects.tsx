@@ -27,8 +27,13 @@ const Projects: React.FC = () => {
         mainImage: require('../../assets/project/farmodo/farmodo-home.png'),
         images: [
           require('../../assets/project/farmodo/farmodo-home.png'),
-          require('../../assets/project/farmodo/farmodo-reward.png'),
-          require('../../assets/project/farmodo/farmodo-store.png')
+          require('../../assets/project/farmodo/farmodo-task.png'),
+          require('../../assets/project/farmodo/farmodo-fullscreen.png'),
+          require('../../assets/project/farmodo/farmodo-store.png'),
+          require('../../assets/project/farmodo/farmodo-reward.jpg'),
+          require('../../assets/project/farmodo/farmodo-reward-1.jpg'),
+          require('../../assets/project/farmodo/farmodo-reward-2.jpg'),
+          require('../../assets/project/farmodo/farmodo-profile.png'),
         ]
       },
     {
@@ -40,7 +45,23 @@ const Projects: React.FC = () => {
       images: [
         require('../../assets/project/vpn/vpn-home.png'),
         require('../../assets/project/vpn/vpn-home-dark.png'),
-        require('../../assets/project/vpn/vpn-connect.png')
+        require('../../assets/project/vpn/vpn-connect.png'),
+        require('../../assets/project/vpn/vpn_disconnect_light.png'),
+      ]
+    },
+    {
+      id: 'linguaswipe',
+      title: 'Linguaswipe',
+      description: 'Linguaswipe is a language learning app that allows you to learn languages by swiping through words.',
+      technologies: ['Flutter', 'Git', 'Shared Preferences', 'SQFlite', 'Easy Localization', 'Provider'],
+      mainImage: require('../../assets/project/linguaswipe/linguaswipe-home.png'),
+      images: [
+        require('../../assets/project/linguaswipe/linguaswipe-card-front.jpg'),
+        require('../../assets/project/linguaswipe/linguaswipe-card-back.jpg'),
+        require('../../assets/project/linguaswipe/linguaswipe-selector.jpg'),
+        require('../../assets/project/linguaswipe/linguaswipe-words.jpg'),
+        require('../../assets/project/linguaswipe/linguaswipe-progress.jpg'),
+        require('../../assets/project/linguaswipe/linguaswipe-splash.jpg'),
       ]
     },
     {
@@ -51,7 +72,9 @@ const Projects: React.FC = () => {
         mainImage: require('../../assets/project/takasla/takasla-home.png'),
         images: [
           require('../../assets/project/takasla/takasla-home.png'),
-          require('../../assets/project/takasla/takasla-swiper.png')
+          require('../../assets/project/takasla/takasla-swiper.png'),
+          require('../../assets/project/takasla/takasla-message.png'),
+          require('../../assets/project/takasla/takasla-brands.png'),
         ]
       },
     {
